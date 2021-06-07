@@ -9,7 +9,7 @@
 [[file:portrait.png]]
 
 * Introduction
-I'm a rising freshman at (UIUC) in Computer Science. I have extensive experience in using PyTorch for training various deep learning models and some experience in computer vision.
+I'm a rising freshman at the University of Illinois at Urbana-Champaign (UIUC) in Computer Science. I have extensive experience in using PyTorch for training various deep learning models and some experience in computer vision.
 ** You can reach me at...
 + E-mail: [[file:email.png]]
 + LinkedIn: Russel Arbore
@@ -22,3 +22,10 @@ Color quantization (CQ) is the process of reducing the amount of colors in an im
 Hearing aids today suffer from background noise that make their usage annoying for those with hearing loss. Traditional methods of conductin de-noising such as DNR don't account for complex noises, such as sounds resembling speech but are actually undesirable (crowded enviornments such as cafes or public spaces). We sought to instead use a deep learning model to conduct realtime de-noising. To accomplish this, we used a Jetson Nano 2GB to perform the de-noising. We chose a Fully Convolutional Neural Network (FCNN) as our de-noising model and trained on the Mozilla Common Voice dataset, the UrbanSound8K dataset, and data we collected ourselves.
 + [[https://github.com/RArbore/Deep-Learning-Hearing-Aid]] 
 + [[file:Capstone-Final-Powerpoint.pptx]]
+* Work Experience
+** Lamont-Doherty Earth Observatory
+While working with the Lamont-Doherty Earth Observatory at Columbia University, I created and proved the viability of a novel method of data augmentation. This method was applied on a U-Net segmenting high-resolution satellite images of Antarctic fractures given only low-resolution images and labels for training.
++ https://www.ldeo.columbia.edu/ 
+** Invenio Imaging
+At Invenio Imaging, I created a Python framework for conducting validation tests on Invenio proprietary software and hardware and created tests covering a large portion of the software design spec.
++ https://www.invenio-imaging.com/ 
