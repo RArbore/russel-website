@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-06-06 Sun 16:59 -->
+<!-- 2021-06-06 Sun 18:09 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Russel Arbore's Page</title>
@@ -220,26 +220,53 @@
 <body>
 <div id="content">
 <h1 class="title">Russel Arbore&rsquo;s Page</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgdbd6340">1. Introduction</a>
+<ul>
+<li><a href="#orgaeb9ddb">1.1. You can reach me at&#x2026;</a></li>
+</ul>
+</li>
+<li><a href="#org0340ba7">2. Projects</a>
+<ul>
+<li><a href="#orga10104e">2.1. Using deep learning to non-iteratively conduct palette generation in class specific color quantization</a></li>
+<li><a href="#org83199b0">2.2. Prototyping a deep learning based hearing aid for de-noising</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 
-<div id="org6b56aa1" class="figure">
+<div id="org0dd02d5" class="figure">
 <p><img src="portrait.png" alt="portrait.png" width="250px" />
 </p>
 </div>
 
-<div id="outline-container-orgb89f681" class="outline-2">
-<h2 id="orgb89f681"><span class="section-number-2">1</span> Introduction</h2>
+<div id="outline-container-orgdbd6340" class="outline-2">
+<h2 id="orgdbd6340"><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 I&rsquo;m a rising freshman at (UIUC) in Computer Science. I have extensive experience in using PyTorch for training various deep learning models and some experience in computer vision.
 </p>
 </div>
+<div id="outline-container-orgaeb9ddb" class="outline-3">
+<h3 id="orgaeb9ddb"><span class="section-number-3">1.1</span> You can reach me at&#x2026;</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>E-mail: <img src="email.png" alt="email.png" /></li>
+<li>LinkedIn: Russel Arbore</li>
+</ul>
 </div>
-<div id="outline-container-orge1cc5c5" class="outline-2">
-<h2 id="orge1cc5c5"><span class="section-number-2">2</span> Projects</h2>
+</div>
+</div>
+<div id="outline-container-org0340ba7" class="outline-2">
+<h2 id="org0340ba7"><span class="section-number-2">2</span> Projects</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org2c10ef6" class="outline-3">
-<h3 id="org2c10ef6"><span class="section-number-3">2.1</span> Using deep learning to non-iteratively conduct palette generation in class specific color quantization</h3>
+<div id="outline-container-orga10104e" class="outline-3">
+<h3 id="orga10104e"><span class="section-number-3">2.1</span> Using deep learning to non-iteratively conduct palette generation in class specific color quantization</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 Color quantization (CQ) is the process of reducing the amount of colors in an image with minimal loss in visual quality. The classical way of conducting CQ is by using K-Means to perform the palette generation step, which is fairly slow. This project investigated using a Convolutional Neural Network (CNN) to perform palette generation instead. We found that CNNs have the potential to perform on-par with K-Means in Mean Squared Error between the original and quantized images. Additionally, we found that CNNs have far lower runtimes than K-Means. As per our project title, we investigated whether CNNs were class specific and found that they were not. This means that CNNs can be generalized across many categories of images for CQ. 
@@ -250,11 +277,23 @@ Color quantization (CQ) is the process of reducing the amount of colors in an im
 </ul>
 </div>
 </div>
+<div id="outline-container-org83199b0" class="outline-3">
+<h3 id="org83199b0"><span class="section-number-3">2.2</span> Prototyping a deep learning based hearing aid for de-noising</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Hearing aids today suffer from background noise that make their usage annoying for those with hearing loss. Traditional methods of conductin de-noising such as DNR don&rsquo;t account for complex noises, such as sounds resembling speech but are actually undesirable (crowded enviornments such as cafes or public spaces). We sought to instead use a deep learning model to conduct realtime de-noising. To accomplish this, we used a Jetson Nano 2GB to perform the de-noising. We chose a Fully Convolutional Neural Network (FCNN) as our de-noising model and trained on the Mozilla Common Voice dataset, the UrbanSound8K dataset, and data we collected ourselves.
+</p>
+<ul class="org-ul">
+<li><a href="https://github.com/RArbore/Deep-Learning-Hearing-Aid">https://github.com/RArbore/Deep-Learning-Hearing-Aid</a></li>
+<li><a href="Capstone-Final-Powerpoint.pptx">Capstone-Final-Powerpoint.pptx</a></li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Russel Arbore</p>
-<p class="date">Created: 2021-06-06 Sun 16:59</p>
+<p class="date">Created: 2021-06-06 Sun 18:09</p>
 </div>
 </body>
 </html>
