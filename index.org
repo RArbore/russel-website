@@ -31,5 +31,5 @@ While working with the Lamont-Doherty Earth Observatory at Columbia University, 
 At Invenio Imaging, I created a Python framework for conducting validation tests on Invenio proprietary software and hardware and created tests covering a large portion of the software design spec.
 + https://www.invenio-imaging.com/ 
 * Notes
-You can find a library of my personal notes here: [[file:html/notes.org]]
+You can find a library of my personal notes here: [[file:html/notes.org][Notes]]
 
