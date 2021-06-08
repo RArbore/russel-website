@@ -4,3 +4,5 @@
 #+LANGUAGE: en
 
 #+EXPORT_FILE_NAME: /home/russel/Website/html/notes.org
+
+* [[https://www.russelarbore.com/html/first-note.html][My First Note]]

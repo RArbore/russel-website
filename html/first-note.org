@@ -1,0 +1,8 @@
+#+TITLE: First Note
+#+DESCRIPTION: My first note.
+#+AUTHOR: Russel Arbore
+#+LANGUAGE: en
+
+#+EXPORT_FILE_NAME: /home/russel/Website/html/first-note.html
+
+This is the first of (I hope to be) many notes.
