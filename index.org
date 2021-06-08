@@ -4,7 +4,7 @@
 #+LANGUAGE: en
 
 #+EXPORT_FILE_NAME: /home/russel/Website/index.html
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
 
 #+ATTR_HTML: :width 250px
 [[file:portrait.png]]
@@ -20,7 +20,7 @@ Color quantization (CQ) is the process of reducing the amount of colors in an im
 + [[https://github.com/RArbore/ASI_CQ]]
 + [[file:ASI-Final-Powerpoint.pptx]]
 ** Prototyping a deep learning based hearing aid for de-noising
-Hearing aids today suffer from background noise that make their usage annoying for those with hearing loss. Traditional methods of conductin de-noising such as DNR don't account for complex noises, such as sounds resembling speech but are actually undesirable (crowded enviornments such as cafes or public spaces). We sought to instead use a deep learning model to conduct realtime de-noising. To accomplish this, we used a Jetson Nano 2GB to perform the de-noising. We chose a Fully Convolutional Neural Network (FCNN) as our de-noising model and trained on the Mozilla Common Voice dataset, the UrbanSound8K dataset, and data we collected ourselves.
+Hearing aids today suffer from background noise that make their usage annoying for those with hearing loss. Traditional methods of conducting de-noising such as DNR don't account for complex noises, such as sounds resembling speech but are actually undesirable (crowded enviornments such as cafes or public spaces). We sought to instead use a deep learning model to conduct realtime de-noising. To accomplish this, we used a Jetson Nano 2GB to perform the de-noising. We chose a Fully Convolutional Neural Network (FCNN) as our de-noising model and trained on the Mozilla Common Voice dataset, the UrbanSound8K dataset, and data we collected ourselves.
 + [[https://github.com/RArbore/Deep-Learning-Hearing-Aid]] 
 + [[file:Capstone-Final-Powerpoint.pptx]]
 * Work Experience
