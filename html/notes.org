@@ -3,6 +3,7 @@
 #+AUTHOR: Russel Arbore
 #+LANGUAGE: en
 
-#+EXPORT_FILE_NAME: /home/russel/Website/html/notes.org
+#+EXPORT_FILE_NAME: /home/russel/Website/html/notes.html
 
 * [[https://www.russelarbore.com/html/first-note.html][My First Note]]
+* [[https://www.russelarbore.com/html/building-this-site.html][How I Built This Site]]
