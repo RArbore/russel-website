@@ -1,0 +1,6 @@
+#+TITLE: My Notes
+#+DESCRIPTION: A list of all my personal notes.
+#+AUTHOR: Russel Arbore
+#+LANGUAGE: en
+
+#+EXPORT_FILE_NAME: /home/russel/Website/html/notes.org
