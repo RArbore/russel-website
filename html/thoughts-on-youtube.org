@@ -1,0 +1,18 @@
+#+TITLE: Thoughts on YouTube
+#+DESCRIPTION: Some of my miscellaneous thoughts on YouTube after using it for a decade.
+#+AUTHOR: Russel Arbore
+#+LANGUAGE: en
+
+After using YouTube for quite some time, I've harbored mixed opinions of the site. Other than YouTube, I generally stay off of social media (which I believe has been to my benefit). YouTube, like all things in life, is neither completely good nor bad. Each individual should consider the upsides and downsides of not only YouTube, but of any site before adding said site to one's instinctual routine.
+* Pros
+** Unrivaled library of great, free content
+This element is pretty obvious - there is such a wide variety of high quality content on YouTube that no other platform can match. There's something for everybody.
+** Great community
+Many of the YouTubers who actually create content have a unique ability to connect with their audiences. YouTube (can be) a great place to find /authentic/ creators.
+** Education
+I can confidently say I've learned more (in /all/ facets of life) from YouTube than any other source, combined. YouTube is an excellent place to jump-start your learning into a new subject and, depending on the popularity of the subject, dig deep into the details. YouTube is almost singlehandedly responsible for creating my current career path - I learned no computer science or programming from high school, for example.
+* Cons
+** Google
+YouTube is owned by Google. [[https://stallman.org/google.html]]
+** The YouTube algorithm
+A creator's success on YouTube is significantly influenced by the YouTube algorithm, which decides what videos to recommend to millions of users around the world. I don't know if this is an isolated case, but I haven't had an overall positive experience with this algorithm. I often find myself looking for videos to watch, scrolling through pages of recommendations without finding anything interesting. I've remedied this by subscribing to a large amount of channels that I know create interesting content.

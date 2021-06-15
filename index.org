@@ -3,7 +3,6 @@
 #+AUTHOR: Russel Arbore
 #+LANGUAGE: en
 
-#+EXPORT_FILE_NAME: /home/russel/Website/index.html
 # #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
 
 #+ATTR_HTML: :width 250px
