@@ -3,7 +3,7 @@
 #+AUTHOR: Russel Arbore
 #+LANGUAGE: en
 
-# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
 
 #+ATTR_HTML: :width 250px
 [[https://www.russelarbore.com/portrait.png]]

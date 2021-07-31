@@ -3,4 +3,6 @@
 #+AUTHOR: Russel Arbore
 #+LANGUAGE: en
 
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+
 This is the first of (I hope to be) many notes.

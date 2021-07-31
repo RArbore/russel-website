@@ -3,6 +3,8 @@
 #+AUTHOR: Russel Arbore
 #+LANGUAGE: en
 
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+
 * [[https://www.russelarbore.com/html/thoughts-on-youtube.html][Thoughts on YouTube]]
 * [[https://www.russelarbore.com/html/building-this-site.html][How I Built This Site]]
 * [[https://www.russelarbore.com/html/first-note.html][My First Note]]
