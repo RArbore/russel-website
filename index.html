@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-07-30 Fri 21:35 -->
+<!-- 2021-07-30 Fri 21:39 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Russel Arbore's Page</title>
@@ -199,46 +199,21 @@
 <body>
 <div id="content" class="content">
 <h1 class="title">Russel Arbore&rsquo;s Page</h1>
-<div id="table-of-contents" role="doc-toc">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents" role="doc-toc">
-<ul>
-<li><a href="#org8a6f273">1. Introduction</a>
-<ul>
-<li><a href="#org1a0117d">1.1. You can reach me at&#x2026;</a></li>
-</ul>
-</li>
-<li><a href="#org4555089">2. Projects</a>
-<ul>
-<li><a href="#orgc922346">2.1. Using deep learning to non-iteratively conduct palette generation in class specific color quantization</a></li>
-<li><a href="#orgf1c74f3">2.2. Prototyping a deep learning based hearing aid for de-noising</a></li>
-</ul>
-</li>
-<li><a href="#orga07244f">3. Work Experience</a>
-<ul>
-<li><a href="#orga149a93">3.1. Lamont-Doherty Earth Observatory</a></li>
-<li><a href="#org20f88f3">3.2. Invenio Imaging</a></li>
-</ul>
-</li>
-<li><a href="#org39052d9">4. Notes</a></li>
-</ul>
-</div>
-</div>
 
-<div id="org98b8fad" class="figure">
+<div id="org7e89838" class="figure">
 <p><img src="https://www.russelarbore.com/portrait.png" alt="portrait.png" width="250px" />
 </p>
 </div>
 
-<div id="outline-container-org8a6f273" class="outline-2">
-<h2 id="org8a6f273"><span class="section-number-2">1.</span> Introduction</h2>
+<div id="outline-container-org0344609" class="outline-2">
+<h2 id="org0344609"><span class="section-number-2">1.</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 I&rsquo;m a rising freshman at the University of Illinois at Urbana-Champaign (UIUC) in Computer Science. I have extensive experience in using PyTorch for training various deep learning models and some experience in computer vision.
 </p>
 </div>
-<div id="outline-container-org1a0117d" class="outline-3">
-<h3 id="org1a0117d"><span class="section-number-3">1.1.</span> You can reach me at&#x2026;</h3>
+<div id="outline-container-orgb52a8f1" class="outline-3">
+<h3 id="orgb52a8f1"><span class="section-number-3">1.1.</span> You can reach me at&#x2026;</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>E-mail: <img src="https://www.russelarbore.com/email.png" alt="email.png" /></li>
@@ -247,12 +222,12 @@ I&rsquo;m a rising freshman at the University of Illinois at Urbana-Champaign (U
 </div>
 </div>
 </div>
-<div id="outline-container-org4555089" class="outline-2">
-<h2 id="org4555089"><span class="section-number-2">2.</span> Projects</h2>
+<div id="outline-container-org10f4755" class="outline-2">
+<h2 id="org10f4755"><span class="section-number-2">2.</span> Projects</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-orgc922346" class="outline-3">
-<h3 id="orgc922346"><span class="section-number-3">2.1.</span> Using deep learning to non-iteratively conduct palette generation in class specific color quantization</h3>
+<div id="outline-container-org8651835" class="outline-3">
+<h3 id="org8651835"><span class="section-number-3">2.1.</span> Using deep learning to non-iteratively conduct palette generation in class specific color quantization</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 Color quantization (CQ) is the process of reducing the amount of colors in an image with minimal loss in visual quality. The classical way of conducting CQ is by using K-Means to perform the palette generation step, which is fairly slow. This project investigated using a Convolutional Neural Network (CNN) to perform palette generation instead. We found that CNNs have the potential to perform on-par with K-Means in Mean Squared Error between the original and quantized images. Additionally, we found that CNNs have far lower runtimes than K-Means. As per our project title, we investigated whether CNNs were class specific and found that they were not. This means that CNNs can be generalized across many categories of images for CQ. 
@@ -263,8 +238,8 @@ Color quantization (CQ) is the process of reducing the amount of colors in an im
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf1c74f3" class="outline-3">
-<h3 id="orgf1c74f3"><span class="section-number-3">2.2.</span> Prototyping a deep learning based hearing aid for de-noising</h3>
+<div id="outline-container-org0573a05" class="outline-3">
+<h3 id="org0573a05"><span class="section-number-3">2.2.</span> Prototyping a deep learning based hearing aid for de-noising</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 Hearing aids today suffer from background noise that make their usage annoying for those with hearing loss. Traditional methods of conducting de-noising such as DNR don&rsquo;t account for complex noises, such as sounds resembling speech but are actually undesirable (crowded enviornments such as cafes or public spaces). We sought to instead use a deep learning model to conduct realtime de-noising. To accomplish this, we used a Jetson Nano 2GB to perform the de-noising. We chose a Fully Convolutional Neural Network (FCNN) as our de-noising model and trained on the Mozilla Common Voice dataset, the UrbanSound8K dataset, and data we collected ourselves.
@@ -276,12 +251,12 @@ Hearing aids today suffer from background noise that make their usage annoying f
 </div>
 </div>
 </div>
-<div id="outline-container-orga07244f" class="outline-2">
-<h2 id="orga07244f"><span class="section-number-2">3.</span> Work Experience</h2>
+<div id="outline-container-org493239a" class="outline-2">
+<h2 id="org493239a"><span class="section-number-2">3.</span> Work Experience</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-orga149a93" class="outline-3">
-<h3 id="orga149a93"><span class="section-number-3">3.1.</span> Lamont-Doherty Earth Observatory</h3>
+<div id="outline-container-org6879758" class="outline-3">
+<h3 id="org6879758"><span class="section-number-3">3.1.</span> Lamont-Doherty Earth Observatory</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
 While working with the Lamont-Doherty Earth Observatory at Columbia University, I created and proved the viability of a novel method of data augmentation. This method was applied on a U-Net segmenting high-resolution satellite images of Antarctic fractures given only low-resolution images and labels for training.
@@ -291,8 +266,8 @@ While working with the Lamont-Doherty Earth Observatory at Columbia University, 
 </ul>
 </div>
 </div>
-<div id="outline-container-org20f88f3" class="outline-3">
-<h3 id="org20f88f3"><span class="section-number-3">3.2.</span> Invenio Imaging</h3>
+<div id="outline-container-org6b9d2a8" class="outline-3">
+<h3 id="org6b9d2a8"><span class="section-number-3">3.2.</span> Invenio Imaging</h3>
 <div class="outline-text-3" id="text-3-2">
 <p>
 At Invenio Imaging, I created a Python framework for conducting validation tests on Invenio proprietary software and hardware and created tests covering a large portion of the software design spec.
@@ -303,8 +278,8 @@ At Invenio Imaging, I created a Python framework for conducting validation tests
 </div>
 </div>
 </div>
-<div id="outline-container-org39052d9" class="outline-2">
-<h2 id="org39052d9"><span class="section-number-2">4.</span> Notes</h2>
+<div id="outline-container-org8461d53" class="outline-2">
+<h2 id="org8461d53"><span class="section-number-2">4.</span> Notes</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 You can find a library of my personal notes here: <a href="https://www.russelarbore.com/html/notes.html">Notes</a>
@@ -314,7 +289,7 @@ You can find a library of my personal notes here: <a href="https://www.russelarb
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Russel Arbore</p>
-<p class="date">Created: 2021-07-30 Fri 21:35</p>
+<p class="date">Created: 2021-07-30 Fri 21:39</p>
 </div>
 </body>
 </html>

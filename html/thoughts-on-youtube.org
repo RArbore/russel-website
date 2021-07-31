@@ -4,6 +4,7 @@
 #+LANGUAGE: en
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+#+OPTIONS: toc:nil
 
 After using YouTube for quite some time, I've harbored mixed opinions of the site. Other than YouTube, I generally stay off of social media (which I believe has been to my benefit). YouTube, like all things in life, is neither completely good nor bad. Each individual should consider the upsides and downsides of not only YouTube, but of any site before adding said site to one's instinctual routine.
 * Pros
