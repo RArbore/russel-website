@@ -1,4 +1,4 @@
-#+TITLE: Russel Arbore's Page
+#+TITLE: Russel Arbore's Website
 #+DESCRIPTION: Russel Arbore's personal website, created using Emacs + Org mode.
 #+AUTHOR: Russel Arbore
 #+LANGUAGE: en
@@ -10,7 +10,7 @@
 [[https://www.russelarbore.com/portrait.png]]
 
 * Introduction
-I'm a rising freshman at the University of Illinois at Urbana-Champaign (UIUC) in Computer Science. I have experience in using PyTorch for training various deep learning models and in applying computer vision to real world data.
+I'm a freshman at the University of Illinois at Urbana-Champaign (UIUC) in Computer Science. I have experience in using PyTorch for training various deep learning models and in applying computer vision to real world data.
 ** You can reach me at...
 + E-mail: [[https://www.russelarbore.com/email.png]]
 + LinkedIn: Russel Arbore
