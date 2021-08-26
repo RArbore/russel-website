@@ -4,7 +4,7 @@
 #+LANGUAGE: en
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
-#+OPTIONS: toc:nil
+#+OPTIONS: toc:nil timestamp:nil
 
 #+ATTR_HTML: :width 250px
 [[https://www.russelarbore.com/portrait.png]]
@@ -34,5 +34,5 @@ Hearing aids today suffer from background noise that make their usage annoying f
 + [[https://github.com/RArbore/Deep-Learning-Hearing-Aid]]
 + [[https://www.russelarbore.com/Capstone-Final-Powerpoint.pptx][Capstone Powerpoint]]
 * Notes
-You can find a library of my personal notes here: [[https://www.russelarbore.com/html/notes.html][Notes]]
+You can find a library of my personal notes here: [[https://www.russelarbore.com/notes.html][Notes]]
 

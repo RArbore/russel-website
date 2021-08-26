@@ -1,0 +1,11 @@
+#+TITLE: My Notes
+#+DESCRIPTION: A list of all my personal notes.
+#+AUTHOR: Russel Arbore
+#+LANGUAGE: en
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+#+OPTIONS: toc:nil timestamp:nil
+
+* [[https://www.russelarbore.com/thoughts-on-youtube.html][Thoughts on YouTube]]
+* [[https://www.russelarbore.com/building-this-site.html][How I Built This Site]]
+* [[https://www.russelarbore.com/first-note.html][My First Note]]
