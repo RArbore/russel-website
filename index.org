@@ -3,8 +3,9 @@
 #+AUTHOR: Russel Arbore
 #+LANGUAGE: en
 
+#+HTML_HEAD: <?php Header("Cache-Control: max-age=3000, must-revalidate"); ?>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
-#+OPTIONS: toc:nil timestamp:nil
+#+OPTIONS: toc:nil timestamp:nil author:nil
 
 #+ATTR_HTML: :width 250px
 [[https://www.russelarbore.com/portrait.png]]
