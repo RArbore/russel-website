@@ -17,7 +17,7 @@ I'm a freshman at the University of Illinois at Urbana-Champaign (UIUC) in Compu
 + LinkedIn: Russel Arbore
 * Work Experience
 ** Nelumbo
-At Nelumbo Inc., I created systems for quantifying the propagation of frost and condensation of droplets on custom hydrophobic surfaces. For measuring frost propagation, I developed a configurable pipeline for analyzing time series of images from frost & defrost cycles. For measuring droplet condensation, I tracked both droplet positions and radii within images individually and the behavior of droplets entering and leaving the surface.
+At Nelumbo Inc., I created systems for quantifying the propagation of frost and condensation of droplets on custom hydrophobic surfaces. For measuring frost propagation, I developed a configurable pipeline for analyzing multiple time series of images from frost & defrost cycles. For measuring droplet condensation, I tracked both droplet positions and radii within images individually and the behavior of droplets entering and leaving the surface.
 + [[https://www.nelumbo.io/]]
 ** Lamont-Doherty Earth Observatory
 While working with the Lamont-Doherty Earth Observatory at Columbia University, I created and proved the viability of a novel method of data augmentation. This method was applied on a U-Net segmenting high-resolution satellite images of Antarctic fractures given only low-resolution images and labels for training.
