@@ -19,3 +19,8 @@ h3 {
 a {
    color: #2c97f4;
 }
+
+.smoothed {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
