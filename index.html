@@ -8,8 +8,8 @@
 <title>Russel Arbore's Website</title>
 <meta name="description" content="Russel Arbore's personal website, created using Emacs + Org mode." />
 <meta name="generator" content="Org Mode" />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
+<style>
+  #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -30,8 +30,9 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -40,21 +41,21 @@
   pre.src {
     position: relative;
     overflow: auto;
-    padding-top: 1.2em;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
+    top: -8px;
+    right: 12px;
     padding: 3px;
-    border: 1px solid black;
+    color: #555;
+    background-color: #f2f2f299;
   }
   pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -190,51 +191,28 @@
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { width: 90%; }
-  /*]]>*/-->
 </style>
 <?php Header("Cache-Control: max-age=3000, must-revalidate"); ?>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<script type="text/javascript">
-// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
-<!--/*--><![CDATA[/*><!--*/
-     function CodeHighlightOn(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.add("code-highlighted");
-         target.classList.add("code-highlighted");
-       }
-     }
-     function CodeHighlightOff(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.remove("code-highlighted");
-         target.classList.remove("code-highlighted");
-       }
-     }
-    /*]]>*///-->
-// @license-end
-</script>
 </head>
 <body>
-<div id="content">
+<div id="content" class="content">
 <h1 class="title">Russel Arbore&rsquo;s Website</h1>
 
-<div id="org544ef02" class="figure">
+<div id="org70264a0" class="figure">
 <p><img src="https://www.russelarbore.com/portrait.png" alt="portrait.png" width="250px" />
 </p>
 </div>
 
-<div id="outline-container-org4373566" class="outline-2">
-<h2 id="org4373566"><span class="section-number-2">1</span> Introduction</h2>
+<div id="outline-container-org02d6fe0" class="outline-2">
+<h2 id="org02d6fe0"><span class="section-number-2">1.</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 I&rsquo;m a freshman at the University of Illinois at Urbana-Champaign (UIUC) in Computer Science. I have experience in using PyTorch for training various deep learning models and in applying computer vision to real world data.
 </p>
 </div>
-<div id="outline-container-org765be50" class="outline-3">
-<h3 id="org765be50"><span class="section-number-3">1.1</span> You can reach me at&#x2026;</h3>
+<div id="outline-container-org15e5663" class="outline-3">
+<h3 id="org15e5663"><span class="section-number-3">1.1.</span> You can reach me at&#x2026;</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>E-mail: <img src="https://www.russelarbore.com/email.png" alt="email.png" /></li>
@@ -243,12 +221,12 @@ I&rsquo;m a freshman at the University of Illinois at Urbana-Champaign (UIUC) in
 </div>
 </div>
 </div>
-<div id="outline-container-org6a6a54e" class="outline-2">
-<h2 id="org6a6a54e"><span class="section-number-2">2</span> Work Experience</h2>
+<div id="outline-container-org0418b32" class="outline-2">
+<h2 id="org0418b32"><span class="section-number-2">2.</span> Work Experience</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org2126c2a" class="outline-3">
-<h3 id="org2126c2a"><span class="section-number-3">2.1</span> Nelumbo</h3>
+<div id="outline-container-org0034e7a" class="outline-3">
+<h3 id="org0034e7a"><span class="section-number-3">2.1.</span> Nelumbo</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 At Nelumbo Inc., I created systems for quantifying the propagation of frost and condensation of droplets on custom hydrophobic surfaces. For measuring frost propagation, I developed a configurable pipeline for analyzing multiple time series of images from frost &amp; defrost cycles. For measuring droplet condensation, I tracked both droplet positions and radii within images individually and the behavior of droplets entering and leaving the surface.
@@ -258,8 +236,8 @@ At Nelumbo Inc., I created systems for quantifying the propagation of frost and 
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbba644a" class="outline-3">
-<h3 id="orgbba644a"><span class="section-number-3">2.2</span> Lamont-Doherty Earth Observatory</h3>
+<div id="outline-container-org92d9bed" class="outline-3">
+<h3 id="org92d9bed"><span class="section-number-3">2.2.</span> Lamont-Doherty Earth Observatory</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 While working with the Lamont-Doherty Earth Observatory at Columbia University, I created and proved the viability of a novel method of data augmentation. This method was applied on a U-Net segmenting high-resolution satellite images of Antarctic fractures given only low-resolution images and labels for training.
@@ -269,8 +247,8 @@ While working with the Lamont-Doherty Earth Observatory at Columbia University, 
 </ul>
 </div>
 </div>
-<div id="outline-container-orgae74073" class="outline-3">
-<h3 id="orgae74073"><span class="section-number-3">2.3</span> Invenio Imaging</h3>
+<div id="outline-container-org3d6324b" class="outline-3">
+<h3 id="org3d6324b"><span class="section-number-3">2.3.</span> Invenio Imaging</h3>
 <div class="outline-text-3" id="text-2-3">
 <p>
 At Invenio Imaging, I created a Python framework for conducting validation tests on Invenio proprietary software and hardware and created tests covering a large portion of the software design spec.
@@ -281,12 +259,12 @@ At Invenio Imaging, I created a Python framework for conducting validation tests
 </div>
 </div>
 </div>
-<div id="outline-container-org8c70206" class="outline-2">
-<h2 id="org8c70206"><span class="section-number-2">3</span> Academic Projects</h2>
+<div id="outline-container-org597c467" class="outline-2">
+<h2 id="org597c467"><span class="section-number-2">3.</span> Academic Projects</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org005cb55" class="outline-3">
-<h3 id="org005cb55"><span class="section-number-3">3.1</span> Using deep learning to non-iteratively conduct palette generation in class specific color quantization</h3>
+<div id="outline-container-org296da95" class="outline-3">
+<h3 id="org296da95"><span class="section-number-3">3.1.</span> Using deep learning to non-iteratively conduct palette generation in class specific color quantization</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
 Color quantization (CQ) is the process of reducing the amount of colors in an image with minimal loss in visual quality. The classical way of conducting CQ is by using K-Means to perform the palette generation step, which is fairly slow. This project investigated using a Convolutional Neural Network (CNN) to perform palette generation instead. We found that CNNs have the potential to perform on-par with K-Means in Mean Squared Error between the original and quantized images. Additionally, we found that CNNs have far lower runtimes than K-Means. As per our project title, we investigated whether CNNs were class specific and found that they were not. This means that CNNs can be generalized across many categories of images for CQ.
@@ -297,8 +275,8 @@ Color quantization (CQ) is the process of reducing the amount of colors in an im
 </ul>
 </div>
 </div>
-<div id="outline-container-orgdd5232e" class="outline-3">
-<h3 id="orgdd5232e"><span class="section-number-3">3.2</span> Prototyping a deep learning based hearing aid for de-noising</h3>
+<div id="outline-container-org7d743b0" class="outline-3">
+<h3 id="org7d743b0"><span class="section-number-3">3.2.</span> Prototyping a deep learning based hearing aid for de-noising</h3>
 <div class="outline-text-3" id="text-3-2">
 <p>
 Hearing aids today suffer from background noise that make their usage annoying for those with hearing loss. Traditional methods of conducting de-noising such as DNR don&rsquo;t account for complex noises, such as sounds resembling speech but are actually undesirable (crowded enviornments such as cafes or public spaces). We sought to instead use a deep learning model to conduct realtime de-noising. To accomplish this, we used a Jetson Nano 2GB to perform the de-noising. We chose a Fully Convolutional Neural Network (FCNN) as our de-noising model and trained on the Mozilla Common Voice dataset, the UrbanSound8K dataset, and data we collected ourselves.
@@ -310,12 +288,12 @@ Hearing aids today suffer from background noise that make their usage annoying f
 </div>
 </div>
 </div>
-<div id="outline-container-org7bfb0e4" class="outline-2">
-<h2 id="org7bfb0e4"><span class="section-number-2">4</span> Personal Projects</h2>
+<div id="outline-container-org1bd86b8" class="outline-2">
+<h2 id="org1bd86b8"><span class="section-number-2">4.</span> Personal Projects</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-org121bcd8" class="outline-3">
-<h3 id="org121bcd8"><span class="section-number-3">4.1</span> rml</h3>
+<div id="outline-container-org79a773e" class="outline-3">
+<h3 id="org79a773e"><span class="section-number-3">4.1.</span> rml</h3>
 <div class="outline-text-3" id="text-4-1">
 <p>
 rml is a machine learning library under active development. rml is written in C and will allow for the training and deployment of deep learning models. Currently, rml has abstractions for basic tensor operations, tensor data types, and dynamic computational graph generation. OpenCL support is currently being worked on. A full TODO list can be seen on rml&rsquo;s GitHub page.
@@ -325,8 +303,8 @@ rml is a machine learning library under active development. rml is written in C 
 </ul>
 </div>
 </div>
-<div id="outline-container-org192c590" class="outline-3">
-<h3 id="org192c590"><span class="section-number-3">4.2</span> mnist-from-scratch</h3>
+<div id="outline-container-org04379aa" class="outline-3">
+<h3 id="org04379aa"><span class="section-number-3">4.2.</span> mnist-from-scratch</h3>
 <div class="outline-text-3" id="text-4-2">
 <p>
 mnist-from-scratch is a from-scratch approach to training a deep learning model to identify numbers in images of handwritten digits. mnist-from-scratch uses only CUDA (C w/ the NVCC compiler) - no PyTorch, no Tensorflow, no Caffe! mnist-from-scratch is not meant to be extensible to other deep learning problems - it is simply a &lt;500 line example of training a neural network from scratch.
@@ -342,8 +320,8 @@ mnist-from-scratch is a from-scratch approach to training a deep learning model 
 </div>
 </div>
 </div>
-<div id="outline-container-org421ef85" class="outline-2">
-<h2 id="org421ef85"><span class="section-number-2">5</span> Notes</h2>
+<div id="outline-container-org483ba13" class="outline-2">
+<h2 id="org483ba13"><span class="section-number-2">5.</span> Notes</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 You can find a library of my personal notes here: <a href="https://www.russelarbore.com/notes.html">Notes</a>
