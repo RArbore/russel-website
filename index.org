@@ -44,6 +44,15 @@ mnist-from-scratch is a from-scratch approach to training a deep learning model 
 + Note, if you want to try running this yourself, you will need .csv versions of the MNIST dataset. I couldn't upload my versions of these files to GitHub due to file size limits, so you can find them here:
   + [[https://www.russelarbore.com/images.csv]]
   + [[https://www.russelarbore.com/labels.csv]]
+** glfw-voxel
+glfw-voxel is a simple voxel-based rendering engine focused on speed. glfw-voxel is written in C, and uses OpenGL/GLFW for rendering. glfw-voxel optimizes chunk meshing to minimize faces that need to be rendered; it also uses frustrum culling. glfw-voxel uses the cglm linear algebra library.
++ [[https://www.github.com/RArbore/glfw-voxel]]
+** rphys
+rphys is a dead-simple elastic collision physics engine. rphys uses OpenGL/GLFW for rendering.
++ [[https://www.github.com/RArbore/rphys]]
+** cuda-simulation
+cuda-simulation is a simple demonstration of using CUDA to simulate a cellular automaton. This project is written in C, uses CUDA for GPU computation, and uses OpenGL/GLUT for rendering.
++ [[https://www.github.com/RArbore/cuda-simulation]]
 * Notes
 You can find a library of my personal notes here: [[https://www.russelarbore.com/notes.html][Notes]]
 
