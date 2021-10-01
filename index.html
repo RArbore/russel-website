@@ -23,7 +23,7 @@
 <h2>Introduction</h2>
 <div>
 <p>
-I'm a freshman at the University of Illinois at Urbana-Champaign (UIUC) in Computer Science. I have experience in using PyTorch for training various deep learning models and in applying computer vision to real world data.
+I'm a freshman at the University of Illinois at Urbana-Champaign (UIUC) in Computer Science. I like developing and using high quality, free as in freedom, and beautiful software.
 </p>
 </div>
 <div>
@@ -37,136 +37,18 @@ I'm a freshman at the University of Illinois at Urbana-Champaign (UIUC) in Compu
 </div>
 </div>
 <div>
-<h2>Work Experience</h2>
-<div>
-<h3>Nelumbo</h3>
-<div>
-<p>
-At Nelumbo Inc., I created systems for quantifying the propagation of frost and condensation of droplets on custom hydrophobic surfaces. For measuring frost propagation, I developed a configurable pipeline for analyzing multiple time series of images from frost &amp; defrost cycles. For measuring droplet condensation, I tracked both droplet positions and radii within images individually and the behavior of droplets entering and leaving the surface.
-</p>
-<ul>
-<li><a href="https://www.nelumbo.io/">https://www.nelumbo.io/</a></li>
-</ul>
-</div>
-</div>
-<div>
-<h3>Lamont-Doherty Earth Observatory</h3>
-<div>
-<p>
-While working with the Lamont-Doherty Earth Observatory at Columbia University, I created and proved the viability of a novel method of data augmentation. This method was applied on a U-Net segmenting high-resolution satellite images of Antarctic fractures given only low-resolution images and labels for training.
-</p>
-<ul>
-<li><a href="https://www.ldeo.columbia.edu/">https://www.ldeo.columbia.edu/</a></li>
-</ul>
-</div>
-</div>
-<div>
-<h3>Invenio Imaging</h3>
-<div>
-<p>
-At Invenio Imaging, I created a Python framework for conducting validation tests on Invenio proprietary software and hardware and created tests covering a large portion of the software design spec.
-</p>
-<ul>
-<li><a href="https://www.invenio-imaging.com/">https://www.invenio-imaging.com/</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div>
-<h2>Academic Projects</h2>
-<div>
-<h3>Using deep learning to non-iteratively conduct palette generation in class specific color quantization</h3>
-<div>
-<p>
-Color quantization (CQ) is the process of reducing the amount of colors in an image with minimal loss in visual quality. The classical way of conducting CQ is by using K-Means to perform the palette generation step, which is fairly slow. This project investigated using a Convolutional Neural Network (CNN) to perform palette generation instead. We found that CNNs have the potential to perform on-par with K-Means in Mean Squared Error between the original and quantized images. Additionally, we found that CNNs have far lower runtimes than K-Means. As per our project title, we investigated whether CNNs were class specific and found that they were not. This means that CNNs can be generalized across many categories of images for CQ.
-</p>
-<ul>
-<li><a href="https://www.github.com/RArbore/ASI_CQ">https://www.github.com/RArbore/ASI_CQ</a></li>
-<li><a href="https://www.russelarbore.com/ASI-Final-Powerpoint.pptx">ASI Powerpoint</a></li>
-</ul>
-</div>
-</div>
-<div>
-<h3>Prototyping a deep learning based hearing aid for de-noising</h3>
-<div>
-<p>
-Hearing aids today suffer from background noise that make their usage annoying for those with hearing loss. Traditional methods of conducting de-noising such as DNR don't account for complex noises, such as sounds resembling speech but are actually undesirable (crowded enviornments such as cafes or public spaces). We sought to instead use a deep learning model to conduct realtime de-noising. To accomplish this, we used a Jetson Nano 2GB to perform the de-noising. We chose a Fully Convolutional Neural Network (FCNN) as our de-noising model and trained on the Mozilla Common Voice dataset, the UrbanSound8K dataset, and data we collected ourselves.
-</p>
-<ul>
-<li><a href="https://www.github.com/RArbore/Deep-Learning-Hearing-Aid">https://www.github.com/RArbore/Deep-Learning-Hearing-Aid</a></li>
-<li><a href="https://www.russelarbore.com/Capstone-Final-Powerpoint.pptx">Capstone Powerpoint</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div>
-<h2>Personal Projects</h2>
-<div>
-<h3>rml</h3>
-<div>
-<p>
-rml is a machine learning library under active development. rml is written in C and will allow for the training and deployment of deep learning models. Currently, rml has abstractions for basic tensor operations, tensor data types, and dynamic computational graph generation. OpenCL support is currently being worked on. A full TODO list can be seen on rml's GitHub page.
-</p>
-<ul>
-<li><a href="https://www.github.com/RArbore/rml">https://www.github.com/RArbore/rml</a></li>
-</ul>
-</div>
-</div>
-<div>
-<h3>mnist-from-scratch</h3>
-<div>
-<p>
-mnist-from-scratch is a from-scratch approach to training a deep learning model to identify numbers in images of handwritten digits. mnist-from-scratch uses only CUDA (C w/ the NVCC compiler) - no PyTorch, no Tensorflow, no Caffe! mnist-from-scratch is not meant to be extensible to other deep learning problems - it is simply a &lt;500 line example of training a neural network from scratch.
-</p>
-<ul>
-<li><a href="https://www.github.com/RArbore/mnist-from-scratch">https://www.github.com/RArbore/mnist-from-scratch</a></li>
-<li>Note, if you want to try running this yourself, you will need .csv versions of the MNIST dataset. I couldn't upload my versions of these files to GitHub due to file size limits, so you can find them here:
-<ul>
-<li><a href="https://www.russelarbore.com/images.csv">https://www.russelarbore.com/images.csv</a></li>
-<li><a href="https://www.russelarbore.com/labels.csv">https://www.russelarbore.com/labels.csv</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<div>
-<h3>glfw-voxel</h3>
-<div>
-<p>
-glfw-voxel is a simple voxel-based rendering engine focused on speed. glfw-voxel is written in C, and uses OpenGL/GLFW for rendering. glfw-voxel optimizes chunk meshing to minimize faces that need to be rendered; it also uses frustrum culling. glfw-voxel uses the cglm linear algebra library.
-</p>
-<ul>
-<li><a href="https://www.github.com/RArbore/glfw-voxel">https://www.github.com/RArbore/glfw-voxel</a></li>
-</ul>
-</div>
-</div>
-<div>
-<h3>rphys</h3>
-<div>
-<p>
-rphys is a dead-simple elastic collision physics engine. rphys uses OpenGL/GLFW for rendering.
-</p>
-<ul>
-<li><a href="https://www.github.com/RArbore/rphys">https://www.github.com/RArbore/rphys</a></li>
-</ul>
-</div>
-</div>
-<div>
-<h3>cuda-simulation</h3>
-<div>
-<p>
-cuda-simulation is a simple demonstration of using CUDA to simulate a cellular automaton. This project is written in C, uses CUDA for GPU computation, and uses OpenGL/GLUT for rendering.
-</p>
-<ul>
-<li><a href="https://www.github.com/RArbore/cuda-simulation">https://www.github.com/RArbore/cuda-simulation</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div>
 <h2>Notes</h2>
 <div>
 <p>
 You can find a library of my personal notes here: <a href="https://www.russelarbore.com/notes.html">Notes</a>
+</p>
+</div>
+</div>
+<div>
+<h2>Technical Experience</h2>
+<div>
+<p>
+You can find a compilation of my technical experience here: <a href="https://www.russelarbore.com/experience.html">Notes</a>
 </p>
 </div>
 </div>
