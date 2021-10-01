@@ -1,13 +1,11 @@
-.center {
-  margin: auto;
-  width: 60%;
-  padding: 20px;
-}
-
 body {
     background-color: #282c34;
     color: #bbc2cf;
     font-family: 'Fira Mono';
+    width: 60em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
