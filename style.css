@@ -1,3 +1,7 @@
+html {
+   background-color: #21242b;
+}
+
 body {
     background-color: #282c34;
     color: #bbc2cf;
@@ -6,10 +10,12 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 25px;
 }
 
 h1 {
    color: #e7e7e7;
+   text-shadow: 5px 5px 1px #21242b;
 }
 
 h2 {
