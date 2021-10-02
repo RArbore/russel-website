@@ -32,3 +32,8 @@ h3 {
 a {
    color: #2c97f4;
 }
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
