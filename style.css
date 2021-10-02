@@ -1,8 +1,16 @@
 html {
-   background-color: #21242b;
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    image-rendering: pixelated;
 }
 
 body {
+    image-rendering: auto;
     background-color: #282c34;
     color: #bbc2cf;
     font-family: 'Fira Mono';
