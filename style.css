@@ -11,6 +11,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
+    border: solid #bbc2cf;
 }
 
 h1 {
@@ -20,10 +21,12 @@ h1 {
 
 h2 {
    color: #c678dd;
+   text-shadow: 4px 4px 1px #21242b;
 }
 
 h3 {
    color: #2c97f4;
+   text-shadow: 3px 3px 1px #21242b;
 }
 
 a {
