@@ -13,7 +13,7 @@ body {
     border-radius: 25px;
     border: solid #bbc2cf;
     padding: 40px 40px 40px 40px;
-    box-shadow: 5px 5px 1px #21242b
+    box-shadow: 5px 5px 1px #101215
 }
 
 h1 {
@@ -30,7 +30,7 @@ h2 {
 
 h3 {
    color: #2c97f4;
-   text-shadow: 3px 3px 1px #101215;
+   text-shadow: 3px 3px 1px #21242b;
    text-align: center;
 }
 
