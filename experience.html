@@ -16,14 +16,19 @@
 <div>
 <h2>Work Experience</h2>
 <div>
+<h3>Lawrence Berkeley National Lab</h3>
+<div>
+<p>
+At LBNL, I created a processing pipeline for running MODTRAN in parallel on NERSC's Cori supercomputer. Using OpenMPI, I significantly reduced the iteration time for running MODTRAN on a full suite of test cases. I also created several utilities for managing, visualizing, and analyzing the input / output of this pipeline.
+</p>
+</div>
+</div>
+<div>
 <h3>Nelumbo</h3>
 <div>
 <p>
 At Nelumbo Inc., I created systems for quantifying the propagation of frost and condensation of droplets on custom hydrophobic surfaces. For measuring frost propagation, I developed a configurable pipeline for analyzing multiple time series of images from frost &amp; defrost cycles. For measuring droplet condensation, I tracked both droplet positions and radii within images individually and the behavior of droplets entering and leaving the surface.
 </p>
-<ul>
-<li><a href="https://www.nelumbo.io/">https://www.nelumbo.io/</a></li>
-</ul>
 </div>
 </div>
 <div>
@@ -32,9 +37,6 @@ At Nelumbo Inc., I created systems for quantifying the propagation of frost and 
 <p>
 While working with the Lamont-Doherty Earth Observatory at Columbia University, I created and proved the viability of a novel method of data augmentation. This method was applied on a U-Net segmenting high-resolution satellite images of Antarctic fractures given only low-resolution images and labels for training.
 </p>
-<ul>
-<li><a href="https://www.ldeo.columbia.edu/">https://www.ldeo.columbia.edu/</a></li>
-</ul>
 </div>
 </div>
 <div>
@@ -43,41 +45,22 @@ While working with the Lamont-Doherty Earth Observatory at Columbia University, 
 <p>
 At Invenio Imaging, I created a Python framework for conducting validation tests on Invenio proprietary software and hardware and created tests covering a large portion of the software design spec.
 </p>
-<ul>
-<li><a href="https://www.invenio-imaging.com/">https://www.invenio-imaging.com/</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div>
-<h2>Academic Projects</h2>
-<div>
-<h3>Using deep learning to non-iteratively conduct palette generation in class specific color quantization</h3>
-<div>
-<p>
-Color quantization (CQ) is the process of reducing the amount of colors in an image with minimal loss in visual quality. The classical way of conducting CQ is by using K-Means to perform the palette generation step, which is fairly slow. This project investigated using a Convolutional Neural Network (CNN) to perform palette generation instead. We found that CNNs have the potential to perform on-par with K-Means in Mean Squared Error between the original and quantized images. Additionally, we found that CNNs have far lower runtimes than K-Means. As per our project title, we investigated whether CNNs were class specific and found that they were not. This means that CNNs can be generalized across many categories of images for CQ.
-</p>
-<ul>
-<li><a href="https://www.github.com/RArbore/ASI_CQ">https://www.github.com/RArbore/ASI_CQ</a></li>
-<li><a href="https://www.russelarbore.com/ASI-Final-Powerpoint.pptx">ASI Powerpoint</a></li>
-</ul>
-</div>
-</div>
-<div>
-<h3>Prototyping a deep learning based hearing aid for de-noising</h3>
-<div>
-<p>
-Hearing aids today suffer from background noise that make their usage annoying for those with hearing loss. Traditional methods of conducting de-noising such as DNR don't account for complex noises, such as sounds resembling speech but are actually undesirable (crowded enviornments such as cafes or public spaces). We sought to instead use a deep learning model to conduct realtime de-noising. To accomplish this, we used a Jetson Nano 2GB to perform the de-noising. We chose a Fully Convolutional Neural Network (FCNN) as our de-noising model and trained on the Mozilla Common Voice dataset, the UrbanSound8K dataset, and data we collected ourselves.
-</p>
-<ul>
-<li><a href="https://www.github.com/RArbore/Deep-Learning-Hearing-Aid">https://www.github.com/RArbore/Deep-Learning-Hearing-Aid</a></li>
-<li><a href="https://www.russelarbore.com/Capstone-Final-Powerpoint.pptx">Capstone Powerpoint</a></li>
-</ul>
 </div>
 </div>
 </div>
 <div>
 <h2>Personal Projects</h2>
+<div>
+<h3>vtrace</h3>
+<div>
+<p>
+Vtrace is a simple voxel path tracer. A branchless DDA algorithm is used to accelerate traversing rays. It's written in C, and uses the OpenGL API. Vtrace uses a GLSL compute shader to perform the path tracing.
+</p>
+<ul>
+<li><a href="https://www.github.com/RArbore/vtrace">https://www.github.com/RArbore/vtrace</a></li>
+</ul>
+</div>
+</div>
 <div>
 <h3>emu</h3>
 <div>
@@ -135,17 +118,6 @@ glfw-voxel is a simple voxel-based rendering engine focused on speed. glfw-voxel
 </p>
 <ul>
 <li><a href="https://www.github.com/RArbore/glfw-voxel">https://www.github.com/RArbore/glfw-voxel</a></li>
-</ul>
-</div>
-</div>
-<div>
-<h3>cuda-simulation</h3>
-<div>
-<p>
-cuda-simulation is a simple demonstration of using CUDA to simulate a cellular automaton. This project is written in C, uses CUDA for GPU computation, and uses OpenGL/GLUT for rendering.
-</p>
-<ul>
-<li><a href="https://www.github.com/RArbore/cuda-simulation">https://www.github.com/RArbore/cuda-simulation</a></li>
 </ul>
 </div>
 </div>
